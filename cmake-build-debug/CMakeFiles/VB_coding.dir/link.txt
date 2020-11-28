@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.5\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\VB_coding.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\VB_coding.dir/objects.a @CMakeFiles\VB_coding.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\VB_coding.dir/objects.a -Wl,--no-whole-archive  -o VB_coding.exe -Wl,--out-implib,libVB_coding.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VB_coding.dir\linklibs.rsp
